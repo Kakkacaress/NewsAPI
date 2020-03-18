@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+}
+
+.wrapper {
+	border: 1px solid #CACACA;
+	border-radius: 7px;
+	width: 90%;
+	margin: auto;
+	background: white;
+	margin-top: 0vmax
+}
+
+.wrapper a {
+	text-decoration: none;
+	color: #CACACA
+}
+
+.wrapper a:hover {
+	color: blue
+}
+
+.wrapper h3 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	/* font-weight: 600 */
+}
+
+.wrapper p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.flexCont {
+	/* display: flex; */
+	width: 80%;
+	margin: auto
+}
+
+.pic img {
+	width: 60%;
+	height: 50%;
+	color: blue
+}
+
+@media only screen and (max-width: 480px) {
+	.pic img {
+		width: 90%;
+		height: 80%
+	}
+}
